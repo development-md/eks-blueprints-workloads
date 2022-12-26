@@ -30,7 +30,7 @@ spec:
                 cpu: "150m"
             limits:
                 memory: "64Mi"
-                cpu: "500"
+                cpu: "500m"
   strategy:
     blueGreen:
       autoPromotionEnabled: false

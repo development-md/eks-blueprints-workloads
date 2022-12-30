@@ -14,7 +14,7 @@ spec:
         app: hello
     spec:
       containers:
-      - image: hashicorp/http-echo
+      - image: k8s.gcr.io/e2e-test-images/echoserver:2.5
         name: hello
         ports:
         - containerPort: 8080

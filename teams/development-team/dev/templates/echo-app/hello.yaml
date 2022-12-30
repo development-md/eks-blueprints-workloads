@@ -20,7 +20,7 @@ spec:
         app: hello
     spec:
       containers:
-      - image: hello-world
+      - image: nginx:1.14.2
         name: hello
         ports:
         - containerPort: 8080

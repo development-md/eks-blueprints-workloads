@@ -24,3 +24,10 @@ spec:
                 name: echoserver
                 port:
                   number: 8080
+          - path: /hello
+            pathType: Prefix
+            backend:
+              service:
+                name: hello
+                port:
+                  number: 8080

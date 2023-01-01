@@ -14,7 +14,7 @@ spec:
         app: hotels
     spec:
       containers:
-      - image: mahmoud94/sample-nodejs-api:v1.2
+      - image: mahmoud94/sample-nodejs-api:v1.3
         name: hotels
         ports:
         - containerPort: 8080

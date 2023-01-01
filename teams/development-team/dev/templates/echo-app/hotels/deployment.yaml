@@ -13,7 +13,6 @@ spec:
       labels:
         app: hotels
     spec:
-    serviceAccountName: tripdeal
       containers:
       - image: mahmoud94/sample-nodejs-api:v1.3
         name: hotels

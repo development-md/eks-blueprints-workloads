@@ -31,3 +31,11 @@ spec:
                 name: hello
                 port:
                   number: 8080
+          - path: /hotels
+            pathType: Prefix
+            backend:
+              service:
+                name: hotels
+                port:
+                  number: 8080
+                  

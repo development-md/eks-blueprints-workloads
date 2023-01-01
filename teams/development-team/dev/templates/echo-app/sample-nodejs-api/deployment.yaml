@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotels
+  namespace: development-team
+spec:
+  selector:
+    matchLabels:
+      app: hotels
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hotels
+    spec:
+      containers:
+      - image: mahmoud94/sample-nodejs-api
+        name: hotels
+        ports:
+        - containerPort: 8080

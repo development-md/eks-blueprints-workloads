@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: hotels
-  replicas: 3
+  replicas: 0
   template:
     metadata:
       labels:

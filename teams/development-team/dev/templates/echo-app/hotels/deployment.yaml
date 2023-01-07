@@ -15,7 +15,7 @@ spec:
     spec:
       serviceAccountName: tripdeal
       containers:
-      - image: mahmoud94/sample-nodejs-api:v1.6
+      - image: mahmoud94/sample-nodejs-api:v1.7
         name: hotels
         ports:
         - containerPort: 8080
